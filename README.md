@@ -1,47 +1,72 @@
-# Rice Classification System
+# Rice Classification System Using ViT
 
-This project involves building a **Rice Classification System** for a superstore billing system. The system accurately classifies 20 different rice varieties based on images, streamlining the billing process for enhanced efficiency.
+This project involves building a **Rice Classification System** for a superstore billing system. The system uses machine learning techniques and a Vision Transformer (ViT) model to accurately classify 20 different rice varieties based on images, achieving an impressive accuracy of **94%**.
 
-## Project Overview
-The Rice Classification System leverages machine learning techniques to categorize rice varieties using image data. The model achieves an accuracy of **94.60%**, ensuring reliable and precise classification.
+---
+
+## Table of Contents
+
+1. [Features](#features)  
+2. [Technologies Used](#technologies-used)  
+3. [ViT Model Workflow](#vit-model-workflow)  
+4. [Rice Varieties](#rice-varieties)  
+5. [Installation](#installation)  
+6. [Usage](#usage)  
+
+---
 
 ## Features
-- Classification of **20 rice varieties** based on their images.
-- Integration with superstore billing systems for automated product identification.
-- High accuracy model using advanced machine learning techniques.
 
-## Tech Stack
-- **Programming Language:** Python
-- **Libraries:** Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn
-- **Algorithms Used:**
-  - Support Vector Classifier (SVC)
-  - Logistic Regression
-  - Random Forest
+- **Accurate Classification:** Classifies 20 rice varieties using image inputs with **94% accuracy**.  
+- **Transformer-based Feature Extraction:** Utilized ViT (Vision Transformer) for efficient feature extraction.  
+- **Scalable Solution:** Designed for integration into superstore billing systems to automate product identification.  
+- **Flexible Model Design:** Experimented with multiple classification models to find the optimal solution.  
 
-## Model Performance
-- **SVC Model Accuracy:** 94.60% (Highest)
-- Logistic Regression and Random Forest were also implemented for comparison.
+---
 
-## Dataset
-The dataset consists of images of 20 different rice varieties. Each image represents a distinct variety, labeled for supervised learning.
+## Technologies Used
 
-## Model Training
+- **Machine Learning Frameworks:** Python, TensorFlow/Keras  
+- **Transformer Model:** Vision Transformer (ViT)  
+- **Libraries:** NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn  
 
-### Preprocessing
-- The images were preprocessed to ensure consistency in dimensions and format.
+---
 
-### Feature Extraction
-- Extracted relevant features from the images using statistical and visual techniques.
+## ViT Model Workflow
 
-### Model Training and Evaluation
-- Implemented and compared multiple machine learning models:
-  - **Support Vector Classifier (SVC)**
-  - **Logistic Regression**
-  - **Random Forest**
-- Selected **SVC** for deployment due to its superior accuracy of **94.60%**.
+1. **Preprocessing:** 
+   - Resized and normalized rice grain images to ensure consistency.  
+2. **Feature Extraction:**
+   - Leveraged the Vision Transformer (ViT) to extract meaningful features from images.  
+3. **Model Training:**
+   - Trained multiple classification models (e.g., SVC, Logistic Regression, Random Forest).  
+   - Achieved the best accuracy of **94%** using the final optimized model.  
 
-## Future Enhancements
-- Implementing deep learning techniques for further accuracy improvement.
-- Extending the system to classify other grain varieties.
-- Integration with IoT devices for real-time classification in billing systems.
+---
+
+## Rice Varieties
+
+The system classifies the following 20 rice varieties:  
+1. Basmati  
+2. Jasmine  
+3. Arborio  
+4. Brown  
+5. Wild  
+6. Black  
+7. Red  
+8. Sushi  
+9. Glutinous  
+10. Long Grain White  
+11. Short Grain White  
+12. Parboiled  
+13. Medium Grain White  
+14. Sticky  
+15. Organic Brown  
+16. Wehani  
+17. Carnaroli  
+18. Himalayan Red  
+19. Kalijira  
+20. Sona Masuri  
+
+---
 
