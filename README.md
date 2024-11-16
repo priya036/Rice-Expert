@@ -71,12 +71,12 @@ The system classifies the following 20 rice varieties:
 
 ## Usage
 
-**1.Run the Application:**
-To start the application, run the following command in your terminal:
+1.**Run the Application:**
+   To start the application, run the following command in your terminal:
 python main.py
 
-**2.Upload Image:** 
-Use the provided interface to upload a rice grain image.
+2.**Upload Image:** 
+   Use the provided interface to upload a rice grain image.
 
-**3.View Classification Result:**
-The model will classify the uploaded image into one of the 20 rice varieties with 94% accuracy
+3.**View Classification Result:**
+   The model will classify the uploaded image into one of the 20 rice varieties with 94% accuracy
