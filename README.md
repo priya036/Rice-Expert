@@ -10,8 +10,7 @@ This project involves building a **Rice Classification System** for a superstore
 2. [Technologies Used](#technologies-used)  
 3. [ViT Model Workflow](#vit-model-workflow)  
 4. [Rice Varieties](#rice-varieties)  
-5. [Installation](#installation)  
-6. [Usage](#usage)  
+5. [Usage](#usage)  
 
 ---
 
@@ -70,3 +69,14 @@ The system classifies the following 20 rice varieties:
 
 ---
 
+## Usage
+
+**1.Run the Application:**
+To start the application, run the following command in your terminal:
+python main.py
+
+**2.Upload Image:** 
+Use the provided interface to upload a rice grain image.
+
+**3.View Classification Result:**
+The model will classify the uploaded image into one of the 20 rice varieties with 94% accuracy
